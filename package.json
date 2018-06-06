@@ -25,7 +25,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/chrisjake/gitbook-plugin-theme-partone.git"
+    "url": "git+https://github.com/chrisjake/gitbook-plugin-theme-partone.git"
   },
   "author": "FriendCode Inc. <contact@gitbook.com>",
   "license": "Apache-2.0",
@@ -33,10 +33,7 @@
     "url": "https://github.com/chrisjake/gitbook-plugin-theme-partone/issues"
   },
   "contributors": [
-    {
-      "name": "Samy Pessé",
-      "email": "samy@gitbook.com"
-    }
+    "Samy Pessé <samy@gitbook.com>"
   ],
   "gitbook": {
     "properties": {
@@ -76,5 +73,10 @@
         "default": false
       }
     }
-  }
+  },
+  "homepage": "https://github.com/chrisjake/gitbook-plugin-theme-partone#readme",
+  "keywords": [
+    "gitbook",
+    "theme"
+  ]
 }
