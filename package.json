@@ -1,12 +1,11 @@
 {
   "name": "gitbook-plugin-theme-partone",
-  "description": "Theme for Part One",
-  "main": "./index.js",
   "version": "1.0.8",
-  "engines": {
+  "description": "Theme for Part One",
+  "main": "index.js",
+    "engines": {
     "gitbook": ">=3.0.0"
   },
-  "dependencies": {},
   "devDependencies": {
     "browserify": "13.1.0",
     "eslint": "3.6.1",
@@ -21,20 +20,22 @@
     "uglify-js": "2.7.3"
   },
   "scripts": {
-    "prepublish": "./src/build.sh"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/chrisjake/gitbook-plugin-theme-partone.git"
+    "url": "git+https://github.com/chrisjake/gitbook-theme-partone.git"
   },
-  "author": "FriendCode Inc. <contact@gitbook.com>",
-  "license": "Apache-2.0",
-  "bugs": {
-    "url": "https://github.com/chrisjake/gitbook-plugin-theme-partone/issues"
-  },
-  "contributors": [
-    "Samy Pessé <samy@gitbook.com>"
+  "keywords": [
+    "gitbook",
+    "theme",
+    "plugin"
   ],
+  "author": "chrisjake",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chrisjake/gitbook-theme-partone/issues"
+  },
   "gitbook": {
     "properties": {
       "styles": {
@@ -73,10 +74,6 @@
         "default": false
       }
     }
-  },
-  "homepage": "https://github.com/chrisjake/gitbook-plugin-theme-partone#readme",
-  "keywords": [
-    "gitbook",
-    "theme"
-  ]
+  },  
+  "homepage": "https://github.com/chrisjake/gitbook-theme-partone#readme"
 }
